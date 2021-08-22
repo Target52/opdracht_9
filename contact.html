@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdracht Opdracht Les Puits</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+
+<body>
+    <header class="page-title">
+        <h1>Les Puits</h1>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#">Home</a></li>
+        </ul>
+    </nav>
+
+    <main class="soft-border">
+        <h1>Contact</h1>
+
+
+
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Naam: <input type="text" name="naam" /></label>
+            </p>
+            <p>
+                <label>EMail: <input type="email" name="email" /></label>
+            </p>
+            <p>
+                <label>Telefoonnummer: <input type="tel" name="telnummer" /></label>
+            </p>
+            <p>
+                <label>Leeftijd: <input type="number" name="leeftijd" /></label>
+            </p>
+            <p>
+                <label>Geboorte datum: <input type="date" name="gdatum" /></label>
+            </p>
+            <p>
+                Selecteer Geslacht:
+                <input type="radio" id="man" name="geslacht" value="Man">
+                <label for="man">Mannelijk</label>
+                <input type="radio" id="vrouw" name="geslacht" value="Vrouw">
+                <label for="man">Vrouwelijk</label>
+                <input type="radio" id="x" name="geslacht" value="X">
+                <label for="man">X</label>
+            </p>
+            <p>Favoriete Keuken:</p>
+            <input type="checkbox" id="cuisine1" name="cuisine1" value="Frans">
+            <label for="vehicle1"> Frans</label><br>
+            <input type="checkbox" id="cuisine2" name="cuisine2" value="Italiaans">
+            <label for="vehicle2"> Italiaans</label><br>
+            <input type="checkbox" id="cuisine3" name="cuisine3" value="Spaans">
+            <label for="vehicle3"> Spaans</label><br>
+            <input type="checkbox" id="cuisine4" name="cuisine4" value="Arabisch">
+            <label for="vehicle3"> Arabisch</label><br><br>
+            <p>
+                <label>favoriete kleur schort: <input type="color" name="favcolor" /></label>
+            </p>
+
+            <p>
+                <label>Biografie: <textarea name="boodschap">Hier uw tekst</textarea></label>
+            </p>
+            <p>
+                <label>Laatste recept: <input type="file" name="recept" /></label>
+            </p>
+            <p>
+                <label>Recepten Site: <input type="url" name="r_site" /></label>
+            </p>
+            <p>
+                <button type="reset">Maak form leeg</button>
+                <button type="submit">Verzenden</button>
+            </p>
+        </form>
+
+
+
+    </main>
+
+
+    <footer class="soft-border">
+        <p>Copyright &copy;2021 Justin</p>
+    </footer>
+</body>
+
+</html>
